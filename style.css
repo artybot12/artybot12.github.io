@@ -29,7 +29,7 @@ body
     flex-wrap: wrap;
       
     
-    width: 600px;
+    width: 450px;
 }
 .container .card
 {
@@ -103,17 +103,17 @@ body
     letter-spacing: 3px;
     text-decoration: none;
     box-shadow: -2px -2px 8px rgb(34, 34, 34),
-                -2px -2px 12px rgba(54, 54, 54, 0.5),
+                -2px -2px 12px rgba(54, 54, 54, .3),
                 inset 2px 2px 4px rgba(36, 36, 36, 0.1),
-                2px 2px 12px rgba(0,0,0,1.15);;
+                2px 2px 12px rgba(0,0,0,.7);;
 }
 .container .card .contentBx a:hover 
 {
  
     box-shadow: inset -2px -2px 8px rgb(34, 34, 34),
-                inset -2px -2px 12px rgba(54, 54, 54, 0.5),
-                inset 2px 2px 4px rgba(36, 36, 36, 0.1),
-                inset 2px 2px 12px rgba(0,0,0,1.15);;
+                inset -2px -2px 12px rgba(54, 54, 54, 0.3),
+                2px 2px 4px rgba(36, 36, 36, 0.1),
+                inset 2px 2px 12px rgba(0,0,0,.7);;
 }
 
 .container .card a:hover span
