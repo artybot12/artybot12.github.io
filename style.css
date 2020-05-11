@@ -14,14 +14,14 @@ body
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 400vh;
+    min-height: 300vh;
     background: #151515;
     max-height: 700vh;
     
 }
 .container
 {   
-    margin-bottom: 110px;
+    margin-bottom: 270px;
     position: relative;
     flex-direction: row;
     display: flex;
