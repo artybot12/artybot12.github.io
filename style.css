@@ -16,6 +16,7 @@ body
     align-items: center;
     min-height: 100vh;
     background: #151515;
+    max-height: 1000vh;
     
 }
 .container
@@ -28,7 +29,7 @@ body
     flex-wrap: wrap;
       
     
-    width: 1000px;
+    width: 1200px;
 }
 .container .card
 {
@@ -72,7 +73,7 @@ body
 }
 .container .card .contentBx h2
 {
-    color: #E08E45;
+    color: rgb(255, 255, 255);
     font-weight: 700;
     font-size: 120px;
     letter-spacing: 1px;
@@ -82,7 +83,7 @@ body
 }
 .container .card .contentBx p 
 {
-    color: #E08E45;
+    color: #F7B538;
     font-size: 30px;
     font-weight: 10;
     margin-bottom: 30px;
@@ -96,7 +97,7 @@ body
     
     border-radius: 30px;
     text-transform: uppercase;
-    color: #E08E45;
+    color: rgb(255, 255, 255);
     font-weight: 600;
     font-size: 40px;
     letter-spacing: 4px;
