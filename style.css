@@ -16,7 +16,7 @@ body
     align-items: center;
     min-height: 100vh;
     background: #151515;
-    max-height: 1000vh;
+    max-height: 700vh;
     
 }
 .container
@@ -29,15 +29,15 @@ body
     flex-wrap: wrap;
       
     
-    width: 700px;
+    width: 600px;
 }
 .container .card
 {
   
-    margin: 20px;
-    margin-bottom: 50px;
+    margin: 10px;
+    margin-bottom: 10px;
     border-radius: 20px;
-    padding: 40px 30px;
+    padding: 20px 10px;
     
     background: #ebf5fc;
     background: linear-gradient(145deg, #161616, #131313);
@@ -61,8 +61,8 @@ body
 }
 .container .card .imgBx img
 {
-    max-width: 150px;
-    margin-bottom: 20px;
+    max-width: 130px;
+    margin-bottom: 2px;
 }
 .container .card .contentBx
 {
@@ -75,7 +75,7 @@ body
 {
     color: rgb(255, 255, 255);
     font-weight: 700;
-    font-size: 40px;
+    font-size: 30px;
     letter-spacing: 1px;
     margin-bottom: 1px;
     text-transform: uppercase;
@@ -91,15 +91,15 @@ body
 .container .card .contentBx a
 {
     display: inline-block;
-    padding: 10px 100px;
-    margin-top: 1px;
-    margin: 10px;
+    padding: 5px 50px;
+    margin-top: 0px;
+    margin: 8px;
     
     border-radius: 30px;
     text-transform: uppercase;
     color: rgb(255, 255, 255);
     font-weight: 600;
-    font-size: 20px;
+    font-size: 16px;
     letter-spacing: 3px;
     text-decoration: none;
     box-shadow: -2px -2px 8px rgb(34, 34, 34),
