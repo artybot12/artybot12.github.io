@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900&Display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh;
+    background: #151515;
+    max-height: 700vh;
+    
+    
+}
+
+.container
+{   
+
+    margin: 20px;
+    position: relative;
+    flex-direction: row;
+    display: flex;
+    justify-content: flex;
+    align-items: flex;
+    flex-wrap: wrap;
+      
+    
+    width: 400px;
+    height: 600px;
+ 
+}
+.container .card
+{
+  
+    margin: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding: 20px 20px;
+    
+    background: #ebf5fc;
+    background: linear-gradient(145deg, #161616, #131313);
+    box-shadow: -2px -2px 8px rgb(34, 34, 34),
+                -2px -2px 12px rgba(43, 43, 43, 0.7),
+                inset 2px 2px 4px rgba(36, 36, 36, 0.1),
+                2px 2px 12px rgba(0,0,0,1.15);
+}
+.container .card:hover
+{
+    box-shadow: -2px -2px 5px rgb(247, 181, 56),
+                0px 0px 100px rgba(247, 181, 56, .5),
+                inset 0px 0px 100px rgba(247, 181, 56, .13),
+                2px 2px 5px rgba(247, 181, 56, 1)
+           ;
+}
+
+.container .card .imgBx
+{
+    position: relative;
+    text-align: center;
+}
+.container .card .imgBx img
+{
+    max-width: 130px;
+    margin-bottom: 2px;
+}
+.container .card .contentBx
+{
+    position: relative;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.container .card .contentBx h2
+{
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin-bottom: 1px;
+    text-transform: uppercase;
+    
+}
+.container .card .contentBx p 
+{
+    color: #F7B538;
+    font-size: 12px;
+    font-weight: 10;
+    margin-bottom: 30px;
+}
+.container .card .contentBx a
+{
+    display: inline-block;
+    padding: 8px 50px;
+    margin-top: 0px;
+    margin: 8px;
+    
+    border-radius: 30px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    box-shadow: -2px -2px 8px rgb(34, 34, 34),
+                -2px -2px 12px rgba(54, 54, 54, .3),
+                inset 2px 2px 4px rgba(36, 36, 36, 0.1),
+                2px 2px 12px rgba(0,0,0,.7);;
+}
+.container .card .contentBx a:hover 
+{
+ 
+    box-shadow: inset -2px -2px 8px rgb(34, 34, 34),
+                inset -2px -2px 12px rgba(54, 54, 54, 0.3),
+                2px 2px 4px rgba(36, 36, 36, 0.1),
+                inset 2px 2px 12px rgba(0,0,0,.7);;
+}
+
+.container .card a:hover span
+{
+display: block;
+transform: scale(0.97);
+}
