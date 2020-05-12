@@ -18,29 +18,29 @@ body
     background: #151515;
     max-height: 700vh;
     
-    
 }
 
 .container
 {   
 
     margin: 20px;
+    margin-top: 500px;
     position: relative;
-    flex-direction: row;
+    
+    flex-direction: column;
     display: flex;
     justify-content: flex;
     align-items: flex;
     flex-wrap: wrap;
-      
-    
-    width: 400px;
-    height: 600px;
+  
+    width: 300px;
+    height: 900px;
  
 }
 .container .card
 {
   
-    margin: 10px;
+    margin: 6px;
     margin-bottom: 10px;
     border-radius: 20px;
     padding: 20px 20px;
@@ -55,8 +55,8 @@ body
 .container .card:hover
 {
     box-shadow: -2px -2px 5px rgb(247, 181, 56),
-                0px 0px 100px rgba(247, 181, 56, .5),
-                inset 0px 0px 100px rgba(247, 181, 56, .13),
+                0px 0px 50px rgba(247, 181, 56, .5),
+                inset 0px 0px 23px rgba(247, 181, 56, .13),
                 2px 2px 5px rgba(247, 181, 56, 1)
            ;
 }
@@ -68,14 +68,14 @@ body
 }
 .container .card .imgBx img
 {
-    max-width: 130px;
+    max-width: 100px;
     margin-bottom: 2px;
 }
 .container .card .contentBx
 {
     position: relative;
     margin-top: 10px;
-    text-align: center;
+    text-align: left;
     margin-bottom: 10px;
 }
 .container .card .contentBx h2
@@ -93,7 +93,7 @@ body
     color: #F7B538;
     font-size: 12px;
     font-weight: 10;
-    margin-bottom: 30px;
+    margin-bottom: 3px;
 }
 .container .card .contentBx a
 {
