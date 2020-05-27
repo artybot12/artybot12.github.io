@@ -17,7 +17,7 @@ body
     min-height: 20vh;
     background: #151515;
     max-height: 700vh;
-    
+        
 }
 
 .container
@@ -52,6 +52,7 @@ body
                 -2px -2px 12px rgba(43, 43, 43, 0.7),
                 inset 2px 2px 4px rgba(36, 36, 36, 0.1),
                 2px 2px 12px rgba(0,0,0,1.15);
+               
 }
 .container .card:hover
 {
@@ -60,6 +61,7 @@ body
                 inset 0px 0px 23px rgba(247, 181, 56, .13),
                 2px 2px 5px rgba(247, 181, 56, 1)
            ;
+    transition: 350ms ease-in-out;
 }
 
 .container .card .imgBx
@@ -95,6 +97,7 @@ body
     font-size: 12px;
     font-weight: 10;
     margin-bottom: 3px;
+    
 }
 .container .card .contentBx a
 {
@@ -115,17 +118,16 @@ body
                 inset 2px 2px 4px rgba(36, 36, 36, 0.1),
                 2px 2px 12px rgba(0,0,0,.7);;
 }
-.container .card .contentBx a:hover 
+.container .card .contentBx p:hover 
 {
  
-    box-shadow: inset -2px -2px 8px rgb(34, 34, 34),
-                inset -2px -2px 12px rgba(54, 54, 54, 0.3),
-                2px 2px 4px rgba(36, 36, 36, 0.1),
-                inset 2px 2px 12px rgba(0,0,0,.7);;
+    transform: scale(1.05);
+    transition: 60ms ease-in-out;
 }
 
 .container .card a:hover span
 {
 display: block;
-transform: scale(0.97);
+transform: scale(.97);
+transition: 100ms ease-in-out;
 }
