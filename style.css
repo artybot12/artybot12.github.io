@@ -24,7 +24,7 @@ body
     
 }
 .container
-{   
+{  
     margin-top: 200px;
     
     margin-bottom: 310px;
@@ -77,6 +77,7 @@ body
                 inset 0px 0px 100px rgba(247, 181, 56, .13),
                 2px 2px 5px rgba(247, 181, 56, 1)
            ;
+    transition: 500ms ease-in-out;
 }
 .container2 .card2
 {
@@ -95,11 +96,14 @@ body
 }
 .container2 .card2:hover
 {
+    
     box-shadow: -2px -2px 5px rgb(247, 181, 56),
                 0px 0px 100px rgba(247, 181, 56, .5),
                 inset 0px 0px 100px rgba(247, 181, 56, .13),
                 2px 2px 5px rgba(247, 181, 56, 1)
            ;
+    transition: 500ms ease-in-out;
+    transition: 700ms ease-in;
 }
 .container .card .imgBx
 {
@@ -212,10 +216,12 @@ b:hover {
                 inset -2px -2px 12px rgba(54, 54, 54, 0.3),
                 2px 2px 4px rgba(36, 36, 36, 0.1),
                 inset 2px 2px 12px rgba(0,0,0,.7);
+                transition: 100ms ease-in-out;
 }
 
 .container .card a:hover span
 {
 display: block;
 transform: scale(0.97);
+transition: 200ms ease-in-out;
 }
